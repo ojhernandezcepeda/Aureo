@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Platillo -Sandro-                                                               
+     ====================================================================== -->
+<project name="Platillo" default="Crear componete.jar" >
+    <description>
+            Genera el jar del componente
+    </description>
+    <target name="Crear componete.jar" description="crea el compoenente.jar">
+    	 <jar destfile="C:\Users\n3ver\Desktop\Patrones\Aureo\front\platillo.jar" 
+    	 	  basedir= "bin\"
+    	 	  manifest="MANIFEST.MF"
+    	 />    	 
+    </target>
+</project>

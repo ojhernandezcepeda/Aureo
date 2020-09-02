@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Compoenente -Sandro-                                                               
+     ====================================================================== -->
+<project name="api" default="Crear api.jar" >
+    <description>
+            Genera el jar del framework  para AIA
+    </description>
+    <target name="Crear api.jar" description="crea el api.jar">
+    	 <jar destfile="C:\Users\n3ver\Desktop\Patrones\Aureo\api\api.jar" 
+    	 	  basedir= "bin\"    	 	  
+    	 />    	 
+    </target>
+</project>
