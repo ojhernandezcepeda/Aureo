@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Aureo -Sandro-                                                               
+     ====================================================================== -->
+<project name="Aureo" default="Crear Aureo.jar">
+    <description>
+            Genera el jar de Aureo
+    </description>
+    <target name="Crear Aureo.jar" description="crea Aureo.jar">
+    <!-- 
+    	<jar destfile="Aureo.jar"  basedir="bin" includes = "*.class">
+            <manifest>
+                <attribute name="Main-Class" value="vista.Aureo"/>
+            	<attribute name = "Class-Path" value = "."/>
+            </manifest>    		
+        </jar>        
+	-->    	
+    	<copy todir="d:/Aureo"><fileset dir="." excludes="*/*,*.xml" includes="*.jar,*.html,*.bat,*.ico,*.txt"/></copy>
+    	<copy todir="d:/Aureo/api"><fileset dir="api"/></copy>
+    	<copy todir="d:/Aureo/back"><fileset dir="back"/></copy>
+    	<copy todir="d:/Aureo/front"><fileset dir="front"/></copy>    	
+    </target>
+</project>
